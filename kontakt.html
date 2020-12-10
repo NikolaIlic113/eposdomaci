@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnazija Kraljevo</title>
+    <link rel="icon" href="slike/logo.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/n.js"></script>
+
+</head>
+
+<body>
+    <header id="heder">
+        <div class="logo">
+            <a href="index.html"><img src="slike/logo.jpg" id="logo"> </a>
+        </div>
+        <nav>
+            <div class="meniGl" id="meniGl">
+                <a href="galerija.html">GALERIJA</a>
+                <a href="kontakt.html">KONTAKT</a>
+                <a href="nastava.html">NASTAVA</a>
+                <a href="nastavno_osoblje.html">NASTAVNO OSOBLJE</a>
+                <a href="istorijat.html">ISTORIJAT</a>
+                <a href="index.html">POČETNA</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </nav>
+
+
+    </header>
+   <br><br><br> <br><br>
+    <div id="glavni">
+          <div id="levi">
+            <br><br><br><br><br><br><br><br><br>
+            <h2> Adresa škole je: <br>
+                &nbsp;&nbsp;&nbsp;Dositejeva 44, 36000 Kraljevo</h2>
+
+            <br><br>
+            <h2>Kontakt telefon: <br>&nbsp;&nbsp;&nbsp; 036/319-760 <br>&nbsp;&nbsp;&nbsp; 036/318-290</h2>
+
+
+            <br>
+            <h2>
+                E-posta: <br>&nbsp;&nbsp;&nbsp; gimnazija.kraljevo@gmail.com
+            </h2>
+            <br>
+            <h2>
+                Facebook stranica: <br>&nbsp;&nbsp;&nbsp;
+                <a href="https://sr-rs.facebook.com/gimkv" target="_blank">
+                    <img src="slike/fb.png" height="50">
+                </a>
+
+            </h2>
+            <div class="map-area fix" >
+              <div id="map"></div>
+              
+                  </div>
+                
+        </div>
+        <div id="forma_kontakt">
+            <form>
+                <h3>Kontaktirajte nas:</h3>
+                <br>
+                <label for="">Ime</label> <br>
+                <input type="text" size="30" placeholder="Unesite Vaše ime" required> <br>
+                <label for="">Prezime</label> <br>
+                <input type="text" size="30" placeholder="Unesite Vaše prezime"  required> <br>
+                <label for="">E-mail adresa</label> <br>
+                <input type="email" size="30" placeholder="Unesite Vašu e-mail adresu"  required> <br> <br>
+                <label for="">Vi ste:</label>
+                <select name="prva_selekcija" id="prva_selekcija">
+                    <option value="opcija1">Profesor/ka</option>
+                    <optgroup label="Učenik/ca">
+                        <option value="opcija1">Prva godina</option>
+                        <option value="opcija1">Druga godina</option>
+                        <option value="opcija1">Treća godina</option>
+                        <option value="opcija1">Četvrta godina</option>
+                    </optgroup>
+                    <option value="opcija1">Roditelj</option>
+                    <option value="opcija1">Gost</option>
+                </select>
+                <br> <br>
+                <label>Smer:</label> <br>
+                <input type="radio" name="radioPolje"> Prirodno-matematički <br>
+                <input type="radio" name="radioPolje"> Opšti <br>
+                <input type="radio" name="radioPolje"> Društveno-jezički <br>
+                <input type="radio" name="radioPolje"> Specijalno-matematički <br> <br>
+                <label for="">Pitanje za:</label> <br>
+                <input type="checkbox" name="cek1"> Direktora/ku <br>
+                <input type="checkbox" name="cek2"> Sekretara/icu <br>
+                <input type="checkbox" name="cek3"> Pedagoga/icu <br>
+                <input type="checkbox" name="cek4"> Predstavnika/cu profesora <br>
+                <input type="checkbox" name="cek5"> Đački parlament <br>
+                <br>
+                <label>Poruka:</label> <br><br>
+                <textarea name="" id="" cols="40" rows="5" placeholder="Unesite tekst"></textarea>
+                <br>
+                <input type="submit" value="Posalji" class="btn" >
+                <input type="reset" value="Resetuj" class="btn" onclick="ispis()">
+                <br>
+                <br>
+            </form>
+        </div>
+    </div>
+    <footer id="futer">
+        <div id="podaci">&#169;Gimnazija Kraljevo 2020</div>
+    </footer>
+  
+
+<script src="js/n.js"></script>
+
+</body>
+
+</html>

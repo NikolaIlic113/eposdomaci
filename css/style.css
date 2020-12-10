@@ -1,0 +1,491 @@
+/*Css za sve*/
+
+body{overflow-x: hidden;
+ background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+ height: 100vh;
+background-size: cover;
+background-position: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-attachment: fixed;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Navigacioni meni*/
+#heder{
+    overflow:auto;
+    background-color: rgba(0,0,0, 1);
+    width:100%;
+}
+
+.navigacioni-meni
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.navigacioni-meni li
+{
+    display: inline-block;
+}
+.navigacioni-meni li a
+{
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.navigacioni-meni li a:hover
+{
+  color: black;
+    background-color:white  ;
+}
+
+.logo img{
+width: 75px;
+height: auto;
+float: left;
+margin-left: 30px;
+margin-top:0px;
+
+}
+  
+.meniGl a {
+    float: right;
+    display: block;
+    color: whitesmoke;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Lucida Console", Monaco, monospace;
+    margin: 4px;
+}
+.meniGl .icon {
+    display: none;
+}
+
+.meniGl a:hover,
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
+
+}
+
+
+
+/*Futer za sve*/
+#podaci{  
+    text-align: center;
+   color: white;
+   font-size: 15px;
+
+}   
+#futer{
+       bottom: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0,0,0, 1);
+    height: 30px;
+    width: 100%;
+   }
+
+/*Pocetna strana*/
+
+#telo1{
+    overflow: hidden;
+}
+#slika_pozadina{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 5%;
+
+    }
+    
+.naslov{  
+    font-family: 'Trebuchet MS', sans-serif;
+     text-align: center;
+    border-radius: 10px;
+     background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    position: relative;
+   width: 90%;
+   top: 15%;
+   left: 5%;
+     font-size: 4vw;
+    }
+    #futer1{
+        position: fixed; 
+           bottom: 0;
+        padding: 10px;
+        text-align: center;
+        background-color: rgba(0,0,0, 1);
+        height: 30px;
+        width: 100%;
+       }
+    
+
+/*Istorijat*/
+
+#ppp{
+    margin-bottom: 1px solid gray;
+}
+#sadrzaj1 {
+    padding-right: 4%;
+     border-right: 1px solid gray;
+    text-align: justify;
+    float: left;
+    margin-bottom: 5%;
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 64%;
+    font-size: 20px;
+}
+#slikatekst{
+   margin: 4px;
+   width: 50%;
+
+
+}
+#istorijat{
+    border-bottom: 1px solid gray;
+    width: 95%;
+    font-size: 40px;
+    margin-top: 2%;
+    margin-left: 3%;
+    padding-bottom: 1%;
+}
+#vest_desno {
+    text-align: justify;
+    float: left;
+    width: 15%;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 45px;
+    padding-right: 5px;
+}
+
+#pohvale{
+    font-size: 30px;
+    border-bottom: 1px solid gray;
+}
+#futer1{
+    position: fixed; 
+    bottom: 0;
+ padding: 10px;
+ text-align: center;
+ background-color: rgba(0,0,0, 1);
+ height: 30px;
+ width: 100%;
+}
+/*Nastavno osoblje*/
+
+#predmeti li{
+    margin: auto;
+    font-size: 14px;
+     display: inline-block;
+     border-left: 1px solid black;
+     border-right: 1px solid black;
+}
+#predmeti a{
+    
+    text-decoration: none;
+}
+#predmeti a:visited{
+    color: rgb(41, 41, 41);
+}
+#glavniDeo{
+    text-align: center;
+}
+#glavniDeo li{
+    font-size: 20px;
+}
+#povVrh {
+    font-size: 30px;
+
+}
+#povVrh a{
+    text-emphasis: none;
+}
+
+/*Nastava*/
+
+
+#forma {
+    text-decoration: none;
+    font-size: 30px;
+}
+#tabele{
+    text-align: center;
+}
+button {
+    background-color:black;
+    border: white;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+table{
+    margin-left: 15px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 140px;
+}
+
+
+#forma a{
+    text-decoration: none;
+}
+#forma li {
+    display: inline-block;
+   padding-left: 4%;
+    list-style: none;
+    color: black;
+}
+
+#forma :visited {
+    color: black;
+    text-decoration: none;
+}
+/*Kontakt forma*/
+
+#forma_kontakt {
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+#glavni{ 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+input[type = text] , input[type = email] {
+    color: black;
+    border-width: 2px;
+    border: solid black;
+border-radius: 6px;
+    background: transparent;
+}
+
+::placeholder{
+    color: black;
+   
+}
+textarea {
+    color: black;
+    border-width: 2px;
+    border: solid black;
+    border-top-style: hidden ;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    background: transparent;
+}
+
+select {
+    width: 170px;
+    color: black;
+    border-width: 2px;
+    border: solid black;
+    border-top-style: hidden ;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    background: transparent;
+}
+
+input[type=submit], input[type=reset] {
+    width: 150px;
+    border-width: 2px;
+    border: solid black;
+    border-radius: 2em;
+}
+#levi{
+    margin-top: -150px;
+    display: inline-block;
+    width: 50%;
+    padding-left: 6%;
+    border-right: 1px solid black ;
+}
+.btn{
+    font-size: 15px;
+    
+}
+
+@media screen and (max-width: 700px) {
+    #glavni  {
+        display: block;
+    }
+    #levi{
+        margin-top: -10%;
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+    #forma_kontakt{
+        margin-left: 10%;
+        width: 90%;
+        display: block;
+        margin-top: -10%;
+    }
+   
+           }
+
+
+
+
+@media screen and (max-width: 950px) {
+    #logo img {
+        display: none;
+    }
+}
+@media screen and (max-width: 900px) {
+   
+}
+   @media screen and (max-width: 850px) {
+    .logo{
+        display: none;
+    }
+    .meniGl a:not(:last-child),
+    .dropdown .dropbtn {
+        display: none;
+    }
+    .meniGl a.icon {
+        float: right;
+        display: block;
+    }
+    
+.meniGl a {
+    float: left;}
+}     
+
+  @media screen and (max-width: 950px) {
+ 
+    .meniGl {
+
+        background-image: linear-gradient(black, rgba(0, 0, 0, 0.6));    
+        z-index: 4;
+    }
+    .meniGl.responsive {
+        position: relative;
+    }
+    .meniGl.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .meniGl.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .meniGl.responsive .dropdown {
+        float: none;
+    }
+
+    .meniGl.responsive .dropdown-content {
+        position: relative;
+    }
+    .meniGl.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 700px) {
+    #slika_pozadina{
+        position: absolute;
+        top: 40%;
+        width: 80%;
+        height: 40%;
+        margin-left: 10%;
+        opacity: 1;
+    }
+    #telo1{
+        background-color: antiquewhite;
+    }
+}
+
+
+#map{
+    width: 300px;
+    height: 300px;
+}
+
+
+@media screen and (max-width: 900px) {
+    #sadrzaj1{
+        width: 80%;
+    }
+    #vest_desno{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    
+    }
+    #clock { 
+        position: absolute;
+        bottom: 7%;
+        font-size: 30px; 
+        width: 200px;  
+        text-align: center; 
+        border: 2px solid black; 
+        border-radius: 20px; 
+    } 
+/*Galerija*/
+#galerija {
+    border: 1px;
+    height: 300px;
+    width: 500px;
+    position: relative;
+  }
+
+  #galerija div {
+    position: absolute;
+    top:10px;
+    left: 100px;
+  }
+
+  #buttons {
+    position: relative;
+    top: 150px;
+  }
+
+  .button {
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 250px;
+    display:inline-flex;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+
+  .button:hover {
+    cursor: pointer;
+  }
+
+  #galerija img {
+    height:400px;
+    width: 800px;
+    position: center;
+    left:100px;
+  }
+
+  .activebutton {
+    background-color: forestgreen;
+  }
